@@ -57,6 +57,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'kryz81app'
-          slot-name: 'Production'
+          slot-name: 'dev'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_953303E842D74BB8BB5B78A4388F097A }}
           package: .
