@@ -66,6 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'kryz81a2'
-          slot-name: 'Production'
+          slot-name: 'dev'
           package: .
           
